@@ -1,0 +1,73 @@
+body,
+button,
+input {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    margin: 72px 14px 0;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 64px;
+}
+
+#controls {
+    display: inline-block;
+    width: 49%;
+    border-right: 1px solid rgba(0, 0, 0, 1);
+    padding-bottom: 32px;
+    padding-right: 32px;
+}
+
+.input-group {
+    margin: 20px 0;
+}
+
+label {
+    display: inline-block;
+    width: 24%;
+    font-weight: 200;
+    font: size 30px;
+    padding: 12px;
+}
+
+input {
+    width: 60%;
+    border: none;
+    font-size: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    padding-left: 6px;
+    font-weight: 200;
+    outline: none;
+}
+
+input:disabled {
+    background-color: white;
+    opacity: 0.6;
+}
+
+button {
+    padding: 12px 62px;
+    background-color: #222;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+button:disabled {
+    opacity: 0.3;
+}
+
+h2 {
+    display: inline-block;
+    font-weight: 200;
+    font-size: 140px;
+    padding-left: 100px;
+}
